@@ -1,1 +1,1 @@
-export * from './MultiCheck';
+export * from "./MultiCheck";
