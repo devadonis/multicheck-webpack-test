@@ -1,5 +1,4 @@
-import React from "react";
-import { FC } from "react";
+import React, { FC } from "react";
 import { MultiCheck } from "./MultiCheck";
 import { Controller } from "./Controller";
 
@@ -15,7 +14,7 @@ const App: FC = (): JSX.Element => {
           columns={columns}
         />
       )}
-    ></Controller>
+    />
   );
 };
 
