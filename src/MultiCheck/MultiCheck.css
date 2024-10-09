@@ -1,3 +1,15 @@
 /* TODO */
 .MultiCheck {
+  display: flex;
+  flex-direction: column;
+}
+
+.MultiCheck-columns {
+  display: flex;
+  gap: 20px; /* Space between columns */
+}
+
+.MultiCheck-column {
+  display: flex;
+  flex-direction: column;
 }
